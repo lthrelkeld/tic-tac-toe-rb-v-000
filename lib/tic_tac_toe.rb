@@ -57,10 +57,7 @@ def turn_count(board)
   count
 end
 
-<<<<<<< HEAD
 #Defines the current player
-=======
->>>>>>> 075b1c51c4dc1ea7207c1e130409a2c863a82a73
 def current_player(board)
   x_plays = 0
   o_plays = 0
