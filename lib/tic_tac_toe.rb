@@ -36,7 +36,6 @@ def turn(board)
 end
 
 def play(board)
-<<<<<<< HEAD
   while over?(board) == false
     turn(board)
   end
@@ -48,15 +47,6 @@ def play(board)
   else
     puts "Cat's Game!"
   end
-=======
-  turn_number = 1
-while over?(board) == false
-  while turn_number<10
-    turn(board)
-    turn_number += 1
-  end
-end
->>>>>>> 075b1c51c4dc1ea7207c1e130409a2c863a82a73
 end
 
 def turn_count(board)
